@@ -1,0 +1,16 @@
+variable "cidr" {
+    description = "ip range for vpc"
+    default = "10.0.0.0/16"
+}
+
+variable "ami" {
+    description = "ami id value"
+    type = string
+    default = "ami-08718895af4dfa033"  
+}
+
+variable "instance_type" {
+    description = "type of instance"
+    type = string
+    default = "t2.micro"
+}
