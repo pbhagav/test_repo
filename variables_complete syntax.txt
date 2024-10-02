@@ -1,3 +1,5 @@
+*/varialble syntax
+
 variable "cidr" {
     description = "ip range for vpc"
     default = "10.0.0.0/16"
@@ -14,3 +16,4 @@ variable "instance_type" {
     type = string
     default = "t2.micro"
 }
+*/complete variable data sytntax
